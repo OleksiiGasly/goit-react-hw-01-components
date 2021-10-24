@@ -1,0 +1,38 @@
+.item {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: rgb(241, 241, 241);
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  padding: 10px;
+  align-items: center;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.online {
+  display: block;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: green;
+}
+
+.offline {
+  display: block;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: red;
+}
